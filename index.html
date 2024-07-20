@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Industry Layoffs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Game Industry Layoffs</h1>
+      <p
+        >Each cluster represents one round of layoff. Each dot inside a cluster
+        represents one person. Clusters without dots represent unknown layoff
+        headcount.</p
+      >
+    </header>
+    <main>
+      <div id="layoffsChart"></div>
+    </main>
+    <footer>
+      <p
+        >The data come from
+        <a
+          href="https://publish.obsidian.md/vg-layoffs/Archive/2024"
+          target="_blank"
+          >Game Industry Layoffs</a
+        >.
+      </p>
+      <p>
+        The visualization layout is inspired by
+        <a
+          href="https://www.washingtonpost.com/education/interactive/school-shootings-database/"
+          target="_blank"
+          >More than 378,000 students have experienced gun violence at school
+          since Columbine</a
+        >.
+      </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
